@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BHENZFLIX</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    background-image:url('background.jpg');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial, sans-serif;
+}
+
+/* Skull Container */
+.skull-box{
+    text-align:center;
+    background:rgba(0,0,0,0.8);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 40px red;
+    color:white;
+}
+
+/* Skull Image */
+.skull-box img{
+    width:150px;
+    margin-bottom:20px;
+    filter: drop-shadow(0 0 15px red);
+}
+
+/* Button */
+button{
+    padding:12px 25px;
+    font-size:16px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkred;
+    box-shadow:0 0 15px red;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="skull-box">
+
+    <!-- Upload ka ng skull.png sa repo mo -->
+    <img src="skull.png" alt="Skull Logo">
+
+    <h2>BHENZFLIX FILE DOWNLOAD</h2>
+
+    <a href="ILAGAY_LINK_MO_DITO" target="_blank">
+        <button>Download Now</button>
+    </a>
+
+</div>
+
+</body>
+</html>
